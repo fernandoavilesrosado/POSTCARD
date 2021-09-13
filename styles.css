@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -10,17 +9,20 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 1rem;
 }
 .header {
 	display: flex;
 	height: 30%;
+	align-content: center;
 }
 .container {
 	display: flex;
 	height: 50%;
 }
 .footer {
-	margin-left: 20%;
+	text-align: center;
+	margin-top: 1rem;
 }
 
 .header-left {
@@ -29,9 +31,15 @@ body {
 .image {
 	width: 80px;
 	height: 60px;
+	margin-left: auto;
 }
 
 .container-right {
 	margin-top: 1rem;
 	justify-content: center;
+	padding-left: 0.5rem;
+}
+.container-left {
+	padding-right: 0.5rem;
+	justify-content: space-between;
 }
